@@ -11,13 +11,24 @@ body
 	background-size: cover;
 }
 
+
 .header
 {
-	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+	color: white;
+	font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
 }
 .header img
 {
 	width: 80px;margin-left: -15px;
+}
+#trend
+{
+	color: white;
+	font-weight: bold;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	text-decoration-line: inherit;
+	font-size: 30px;
+	text-decoration: initial;
 }
 
 #see
@@ -33,10 +44,38 @@ body
 	color: rgb(255, 4, 4);
 }
 
+
+
+#user_name1
+{
+	font-style: italic;
+	font-family: Otomanopee One;
+	font-size: 25px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background:  linear-gradient(white 0%,#b860eb 50%,  #2927ae 90%, white 99%);;
+	width: fit-content;
+	height: fit-content;
+	padding: 5px;
+	border-radius: 10px;
+}
+
 #add
 {
 	color: rgb(37, 0, 245);
 	font-size: 20px;
+	text-decoration: lavender;
+	text-shadow: yellow;
+	text-underline-position: below;
+	
+}
+
+#Room_names
+{
+	text-emphasis-color:initial;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: cursive;
 }
 
 #login_button
@@ -117,7 +156,7 @@ hr
 #output
 {
 	padding: 10px; width:80%;
-	background: rgb(219, 243, 243);border-radius: 15px;
+	background: rgb(219, 243, 243, 0.7);border-radius: 15px;
 }
 
 .input_div_room_page
@@ -133,7 +172,7 @@ hr
 
 .input_div_message_page
 {
-	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,2);
 }
 .input_div_message_page label
 {

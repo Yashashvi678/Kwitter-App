@@ -166,26 +166,39 @@ hr
 
 .input_div label
 {
-	color: white;font-size: 20px;
+	color: white;
+	font-size: 20px;
 }
 
 
 .input_div_message_page
 {
-	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,2);
+	position: fixed;bottom: 0px;width: 100%;
+	background:linear-gradient(#9ddbff 0%, #0559f5 100%);
 }
 .input_div_message_page label
 {
 	color: black;
+	font-size: 17px;
+	text-decoration: underline;
+	color: rgb(250, 4, 4);
+	font-weight: bold;
+	font-family: cursive;
 }
 .input_div_message_page #msg
 {
 	width: 80%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
 }
 .input_div_message_page button
 {
+	font-size: 20px;
 	margin-top: 15px;
 	width: 50%; 
+	background-color: rgb(226, 43, 43);
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
 }
 .color_white
 {

@@ -152,6 +152,14 @@ hr
 	font-size: 20px; float: right;
 }
 
+#back
+{
+	font-size: 20px;
+	
+	text-align: center;
+	align-content: center;
+}
+
 
 #output
 {
